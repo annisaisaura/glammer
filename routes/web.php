@@ -1,7 +1,18 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Navbar;
+use App\Http\Controllers\ExampleController;
+
+/*
+|--------------------------------------------------------------------------
+| Catatan
+|--------------------------------------------------------------------------
+|
+| Sebelum mengatur route halaman di bawah,
+| buat controller terlebih dahulu pada terminal,
+| kemudian inisiasi file controller seperti contoh di atas.
+|
+*/
 
 /*
 |--------------------------------------------------------------------------
@@ -18,4 +29,4 @@ use App\Http\Controllers\Navbar;
 //     return view('welcome');
 // });
 
-Route::get('/', [Navbar::class, 'index']);
+Route::get('/', [ExampleController::class, 'index']);
