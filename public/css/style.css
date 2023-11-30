@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+    --txt-color: #2F4F4F;
+    --btn-color: #FE5C2B;
+    --bg-color: #FFF5EE;
+    --bg-ftr-color: #FADADD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    background: var(--bg-color);
+    color: var(--txt-color);
+}
+
+
+
+/* INI BATAS AWAL NAVBAR */
+.navbar, .navbar-nav, .nav-item, .navbar-brand, .navbar-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    padding: 5px 25px;
+    border-bottom: 1px solid #C0C0C0;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-item {
+    padding: 15px;
+    font-size: 16px;
+}
+
+.nav-item.active {
+    padding: 15px;
+    font-size: 16px;
+    color: var(--btn-color);
+}
+
+.navbar-btn .nav-item {
+    padding: 10px;
+}
+
+.nav-item a, .nav-item i {
+    padding: 5px;
+    transition: 0.3s ease;
+}
+
+.nav-item a:hover, .nav-item:hover i {
+    color: var(--btn-color);
+}
+
+.nav-icon {
+    display: none;
+}
+
+.navbar-brand a img {
+    max-height: 40px;
+}
+
+/* INI BATAS AWAL HAMBURGER BUTTON */
+.hamburger {
+    display: none;
+}
+/* INI BATAS AKHIR HAMBURGER BUTTON */
+/* INI BATAS AKHIR NAVBAR */
+
+
+
+/* INI BATAS AWAL FOOTER */
+
+/* INI BATAS AKHIR FOOTER */
+
+
+
+/* INI BATAS AWAL HALAMAN RESPONSIF */
+@media (max-width: 720px) {
+    .navbar {
+        padding: 13.5px 25px;
+    }
+
+    /* .nav-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: var(--btn-color);
+        width: 100%;
+        height: 75px;
+    }
+
+    .nav-item a, .nav-item i {
+        background-color: transparent;
+    }
+
+    .hamburger {
+        display: block;
+        outline: none;
+        font-size: 16px;
+    } */
+
+    .nav-item {
+        display: none;
+    }
+
+    .nav-icon {
+        display: block;
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    .nav-icon a, .nav-icon i {
+        padding: 5px;
+        transition: 0.3s ease;
+    }
+    
+    .nav-icon a:hover, .nav-icon:hover i {
+        color: var(--btn-color);
+    }
+}
+/* INI BATAS AKHIR HALAMAN RESPONSIF */
