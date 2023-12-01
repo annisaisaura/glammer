@@ -12,8 +12,8 @@
 <div class="small-container">
   <div class="row row-2">
       <div class="col-2">
-          <a href="{{ url('/product_category_3') }}"><img src="{{ asset('img/dress1.png') }}" ></a>
-          <a href="{{ url('/product_category_3') }}"><p>Dresses</p></a>
+          <a href="{{ url('/category') }}"><img src="{{ asset('img/dress1.png') }}" ></a>
+          <a href="{{ url('/category') }}"><p>Dresses</p></a>
       </div>
       <div class="col-2">
           <a href=""><img src="{{ asset('img/tops1.png') }}" ></a>
@@ -51,9 +51,9 @@
         <a href=""><p>Rp1.000.000</p></a>
     </div>
     <div class="col-4">
-        <a href="{{ url('/product_detail') }}"><img src="{{ asset('img/dress6.png') }}" ></a>
-        <a href="{{ url('/product_detail') }}"><h4>Astra Floral Linen..</h4></a>
-        <a href="{{ url('/product_detail') }}"><p>Rp1.000.000</p></a>
+        <a href="{{ url('/detail') }}"><img src="{{ asset('img/dress6.png') }}" ></a>
+        <a href="{{ url('/detail') }}"><h4>Astra Floral Linen..</h4></a>
+        <a href="{{ url('/detail') }}"><p>Rp1.000.000</p></a>
     </div>
     <div class="col-4">
         <a href=""><img src="{{ asset('img/shirts1.png') }}" ></a>
@@ -110,8 +110,8 @@
 </br></br>
 <div class="center-container">
   <div class="page-btn">
-    <a href="{{ url('/product_category') }}"><span>1</span></a>
-    <a href="{{ url('/product_category_2') }}"><span>2</span></a>
+    <a href="{{ url('/') }}"><span>1</span></a>
+    <a href="{{ url('/product') }}"><span>2</span></a>
   </div>
 </div>
 </body>
