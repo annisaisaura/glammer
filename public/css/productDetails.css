@@ -1,3 +1,12 @@
+body {
+  margin: 0;
+  overflow: visible;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 .gambar-produk-main {
   position: absolute;
   top: 0;
@@ -825,6 +834,7 @@
 
 .navbar1 {
   position: absolute;
+  display: flex;
   height: 100%;
   width: 100%;
   top: 0;
@@ -968,4 +978,17 @@
   font-size: 20px;
   color: #2f4f4f;
   font-family: Poppins;
+}
+
+/* Add media queries for different screen sizes if needed */
+@media only screen and (max-width: 600px) {
+  /* Styles for small screens */
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for medium screens */
+}
+
+@media only screen and (min-width: 1025px) {
+  /* Styles for large screens */
 }
