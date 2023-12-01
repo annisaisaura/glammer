@@ -12,8 +12,8 @@
 <div class="small-container">
   <div class="row row-2">
       <div class="col-2">
-          <a href="{{ url('/product_category_3.php') }}"><img src="{{ asset('img/dress1.png') }}" ></a>
-          <a href=""><p>Dresses</p></a>
+          <a href="{{ url('/product_category_3') }}"><img src="{{ asset('img/dress1.png') }}" ></a>
+          <a href="{{ url('/product_category_3') }}"><p>Dresses</p></a>
       </div>
       <div class="col-2">
           <a href=""><img src="{{ asset('img/tops1.png') }}" ></a>
@@ -37,7 +37,6 @@
     </div>
   </div>  
 </div>
-</br></br>
 <!--------------- Products ------------------->
 <div class="small-container">
   <div class="row">
@@ -48,17 +47,17 @@
     </div>
     <div class="col-4">
         <a href=""><img src="{{ asset('img/dress1.png') }}" ></a>
-        <a href=""><h4>Maia Cutout Linen Mini..</h4></a>
+        <a href=""><h4>Maia Cutout Linen..</h4></a>
         <a href=""><p>Rp1.000.000</p></a>
     </div>
     <div class="col-4">
-        <a href="{{ url('/product_category.php') }}"><img src="{{ asset('img/dress6.png') }}" ></a>
-        <a href="{{ url('/product_category.php') }}"><h4>Astra Floral Linen Midi..</h4></a>
-        <a href="{{ url('/product_category.php') }}"><p>Rp1.000.000</p></a>
+        <a href="{{ url('/product_detail') }}"><img src="{{ asset('img/dress6.png') }}" ></a>
+        <a href="{{ url('/product_detail') }}"><h4>Astra Floral Linen..</h4></a>
+        <a href="{{ url('/product_detail') }}"><p>Rp1.000.000</p></a>
     </div>
     <div class="col-4">
         <a href=""><img src="{{ asset('img/shirts1.png') }}" ></a>
-        <a href=""><h4>Astra Floral Drawstring..</h4></a>
+        <a href=""><h4>Astra Floral Draw..</h4></a>
         <a href=""><p>Rp1.000.000</p></a>
     </div>
   </div>
@@ -81,7 +80,7 @@
     </div>
     <div class="col-4">
         <a href=""><img src="{{ asset('img/dress2.png') }}" ></a>
-        <a href=""><h4>Birdie Printed Linen Midi..</h4></a>
+        <a href=""><h4>Birdie Printed Linen..</h4></a>
         <a href=""><p>Rp1.000.000</p></a>
     </div>
   </div>
@@ -111,8 +110,8 @@
 </br></br>
 <div class="center-container">
   <div class="page-btn">
-    <a href="{{ url('/product_category.php') }}"><span>1</span></a>
-    <a href="{{ url('/product_category_2.php') }}"><span>2</span></a>
+    <a href="{{ url('/product_category') }}"><span>1</span></a>
+    <a href="{{ url('/product_category_2') }}"><span>2</span></a>
   </div>
 </div>
 </body>
