@@ -1,6 +1,18 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ExampleController;
+
+/*
+|--------------------------------------------------------------------------
+| Catatan
+|--------------------------------------------------------------------------
+|
+| Sebelum mengatur route halaman di bawah,
+| buat controller terlebih dahulu pada terminal,
+| kemudian inisiasi file controller seperti contoh di atas.
+|
+*/
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +25,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/', [ExampleController::class, 'index']);
