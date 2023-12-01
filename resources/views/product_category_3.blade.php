@@ -7,6 +7,9 @@
     <title>Product Category</title>
 </head>
 <body>
+@include('navbar')
+@include('footer')
+
 <!--------------- Products Category ------------------->
 </br>
 <div class="small-container">
@@ -37,6 +40,7 @@
     </div>
   </div>  
 </div>
+
 <!--------------- Products ------------------->
 <div class="small-container">
   <div class="row">
@@ -57,7 +61,7 @@
     </div>
     <div class="col-4">
         <a href=""><img src="{{ asset('img/dress5.png') }}" ></a>
-        <a href=""><h4>Fenella Ruflled Cotton..</h4></a>
+        <a href=""><h4>Fenella Ruflled Co..</h4></a>
         <a href=""><p>Rp1.000.000</p></a>
     </div>
   </div>
@@ -80,12 +84,13 @@
     </div>
     <div class="col-4">
         <a href=""><img src="{{ asset('img/dress9.png') }}" ></a>
-        <a href=""><h4>Pink Floral Ditsy Chiffon..</h4></a>
+        <a href=""><h4>Pink Floral Ditsy Ch..</h4></a>
         <a href=""><p>Rp1.000.000</p></a>
     </div>
   </div>
 </div>
-</br></br>
+
+<!--------------- Page button ------------------->
 <div class="center-container">
   <div class="page-btn">
     <a href="{{ url('/') }}"><span>1</span></a>

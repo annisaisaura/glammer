@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ asset('css/category.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/style.css')}}">
     <title>Product Category</title>
 </head>
 <body>
+@include('navbar')
+@include('footer')
+
 <!--------------- Products Category ------------------->
 </br>
 <div class="small-container">
@@ -37,6 +41,7 @@
     </div>
   </div>  
 </div>
+
 <!--------------- Products ------------------->
 <div class="small-container">
   <div class="row">
@@ -107,7 +112,8 @@
         <a href=""><p>Rp1.000.000</p></a>
     </div>
 </div>
-</br></br>
+
+<!--------------- Page button ------------------->
 <div class="center-container">
   <div class="page-btn">
     <a href="{{ url('/') }}"><span>1</span></a>

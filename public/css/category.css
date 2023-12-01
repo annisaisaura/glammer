@@ -54,7 +54,7 @@ span {
 }
 
 .row-2{
-    padding: 40px 30px;
+    padding: 60px 30px;
 
 }
 
@@ -71,7 +71,7 @@ span {
 
 .col-2 img{
     max-width: 70px;
-    max-height: 90px;
+    height: 90px;
     background: #FFFFFF;
 }
 
@@ -90,16 +90,20 @@ span {
     border-radius: 20px;
     text-align: center;
     background: #FFFFFF;
+    position: relative;
 }
 
 .col-4 img{
     width: 100px;
-    max-height: 75%;
+    height: 180px;
+    /* max-height: 75%; */
     background-color: #FFFFFF;
+    margin: 5px;
 }
 
 .col-4 p{
     background-color: #FFFFFF;
+    margin: 10px;
 }
 
 .col-4 h4{
