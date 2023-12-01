@@ -12,7 +12,6 @@
     <title>glammer</title>
 </head>
 
-@include navbar
 <body class="custom-bg-container">
     <div class="container custom-bg-container">
         <div class="container p-5 my-5 ">
@@ -133,6 +132,58 @@
                 if (currentValue > 1) {
                     quantityInput.val(currentValue - 1);
                 }
+            });
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const buttons = document.querySelectorAll('.button-size');
+
+            buttons.forEach(button => {
+                button.addEventListener('click', function () {
+                    // Reset color for all buttons
+                    buttons.forEach(btn => {
+                        btn.classList.remove('active');
+                    });
+
+                    // Set color for the clicked button
+                    this.classList.add('active');
+                });
+
+                // Add hover effect
+                button.addEventListener('mouseover', function () {
+                    this.classList.add('hover');
+                });
+
+                // Remove hover effect
+                button.addEventListener('mouseout', function () {
+                    this.classList.remove('hover');
+                });
+            });
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const buttons = document.querySelectorAll('.button-cart');
+
+            buttons.forEach(button => {
+                button.addEventListener('click', function () {
+                    // Reset color for all buttons
+                    buttons.forEach(btn => {
+                        btn.classList.remove('active');
+                    });
+
+                    // Set color for the clicked button
+                    this.classList.add('active');
+                });
+
+                // Add hover effect
+                button.addEventListener('mouseover', function () {
+                    this.classList.add('hover');
+                });
+
+                // Remove hover effect
+                button.addEventListener('mouseout', function () {
+                    this.classList.remove('hover');
+                });
             });
         });
     </script>

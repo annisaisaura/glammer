@@ -84,6 +84,13 @@
     cursor: pointer;
 }
 
+.button-cart.active, .button-cart.hover {
+    background-color: #FE5C2B;
+    /* Ganti dengan warna yang diinginkan saat tombol aktif */
+    color: #fff;
+    /* Ganti dengan warna teks yang diinginkan saat tombol aktif */
+}
+
 .custom-text-cart {
     color: #FE5C2B;
     /* Warna teks */
@@ -113,6 +120,13 @@
     /* Menambahkan border putih sebanyak 2px */
     padding: 10px 20px;
     cursor: pointer;
+}
+
+.button-size.active, .button-size.hover {
+    background-color: #FE5C2B;
+    /* Ganti dengan warna yang diinginkan saat tombol aktif */
+    color: #fff;
+    /* Ganti dengan warna teks yang diinginkan saat tombol aktif */
 }
 
 .button-qty {

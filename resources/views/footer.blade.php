@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 <footer class="footer">
     <div class="footer-left">
         <a href="{{ url('/') }}"><img src="{{ asset('img/glammer-logo-3.png') }}" alt=""></a>
