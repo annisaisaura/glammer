@@ -29,4 +29,4 @@ use App\Http\Controllers\ExampleController;
 //     return view('welcome');
 // });
 
-Route::get('/', [ExampleController::class, 'index']);
+
