@@ -75,6 +75,24 @@
     background-color: #FFF5EE;
 }
 
+.button-img,
+.button-color {
+    border: 0px solid #2F4F4F;
+    /* Menambahkan border putih sebanyak 2px */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-img.active,
+.button-img.hover,
+.button-color.active,
+.button-color.hover {
+    border: 1px solid #2F4F4F;
+    /* Menambahkan border putih sebanyak 2px */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
 .button-cart {
     background-color: #FFF5EE;
     color: #FE5C2B;
@@ -84,7 +102,8 @@
     cursor: pointer;
 }
 
-.button-cart.active, .button-cart.hover {
+.button-cart.active,
+.button-cart.hover {
     background-color: #FE5C2B;
     /* Ganti dengan warna yang diinginkan saat tombol aktif */
     color: #fff;
@@ -97,6 +116,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.button-subs{
+    background-color: #FE5C2B;
+}
+
 .button-buy {
     background-color: #FE5C2B;
     /* Merah dengan tingkat transparansi 0.5 */
@@ -104,6 +127,13 @@
     border: 2px solid #FE5C2B;
     /* Menambahkan border putih sebanyak 2px */
     padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-buy.hover {
+    color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 2px 0 #2F4F4F; 
     cursor: pointer;
 }
 
@@ -116,13 +146,14 @@
 .button-size {
     background-color: #FFF5EE;
     /* Merah dengan tingkat transparansi 0.5 */
-    border: 2px solid #2F4F4F;
+    border: 1px solid #2F4F4F;
     /* Menambahkan border putih sebanyak 2px */
     padding: 10px 20px;
     cursor: pointer;
 }
 
-.button-size.active, .button-size.hover {
+.button-size.active,
+.button-size.hover {
     background-color: #FE5C2B;
     /* Ganti dengan warna yang diinginkan saat tombol aktif */
     color: #fff;

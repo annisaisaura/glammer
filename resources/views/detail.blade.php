@@ -20,18 +20,18 @@
                     <div class="col-sm-4 text-center custom-bg-lightgray custom-col-size p-2">
                         <img src="{{ asset('img/dress6.png') }}" alt="dress6" class="custom-img">
                     </div>
-                    <div class="col-sm-2 text-center  custom-bg-lightgray custom-col-size-opt mt-2 p-2">
+                    <button class="col-sm-2 text-center button-img  custom-bg-lightgray custom-col-size-opt mt-2 p-2">
                         <img src="{{ asset('img/dress6.png') }}" alt="dress6" class="custom-img-opt">
-                    </div>
-                    <div class="col-sm-2 text-center  custom-bg-lightgray custom-col-size-opt mt-2 p-2">
+                    </button>
+                    <button class="col-sm-2 text-center button-img custom-bg-lightgray custom-col-size-opt mt-2 p-2">
                         <img src="{{ asset('img/dress6.png') }}" alt="dress6" class="custom-img-opt">
-                    </div>
-                    <div class="col-sm-2 text-center  custom-bg-lightgray custom-col-size-opt mt-2 p-2">
+                    </button>
+                    <button class="col-sm-2 text-center button-img custom-bg-lightgray custom-col-size-opt mt-2 p-2">
                         <img src="{{ asset('img/dress6.png') }}" alt="dress6" class="custom-img-opt">
-                    </div>
-                    <div class="col-sm-2 text-center  custom-bg-lightgray custom-col-size-opt mt-2 p-2">
+                    </button>
+                    <button class="col-sm-2 text-center button-img custom-bg-lightgray custom-col-size-opt mt-2 p-2">
                         <img src="{{ asset('img/dress6.png') }}" alt="dress6" class="custom-img-opt">
-                    </div>
+                    </button>
                 </div>
                 <div class="col-sm-7">
                     <div class="row m-4 ml-2 mr-2 mt-0 mb-2 fs-3 fw-normal custom-text">
@@ -47,16 +47,16 @@
                         Color
                     </div>
                     <div class="row m-4 ml-2 mr-2 mt-2 mb-2 gap-2">
-                        <div class="col-sm-2 text-center custom-bg-lightgray custom-color-opt p-2">
+                        <div class="col-sm-2 text-center button-color custom-bg-lightgray custom-color-opt p-2">
                             <img src="{{ asset('img/dress6.png') }}" alt="dress6" class="custom-color-img-opt">
                         </div>
-                        <div class="col-sm-2 text-center custom-bg-lightgray custom-color-opt p-2">
+                        <div class="col-sm-2 text-center button-color custom-bg-lightgray custom-color-opt p-2">
                             <img src="{{ asset('img/dress6.png') }}" alt="dress6" class="custom-color-img-opt">
                         </div>
-                        <div class="col-sm-2 text-center custom-bg-lightgray custom-color-opt p-2">
+                        <div class="col-sm-2 text-center button-color custom-bg-lightgray custom-color-opt p-2">
                             <img src="{{ asset('img/dress6.png') }}" alt="dress6" class="custom-color-img-opt">
                         </div>
-                        <div class="col-sm-2 text-center custom-bg-lightgray custom-color-opt p-2">
+                        <div class="col-sm-2 text-center button-color custom-bg-lightgray custom-color-opt p-2">
                             <img src="{{ asset('img/dress6.png') }}" alt="dress6" class="custom-color-img-opt">
                         </div>
                     </div>
@@ -82,13 +82,13 @@
                     </div>
                     <div class="row m-4 ml-2 mr-2 mt-2 mb-2">
                         <div class="quantity-container">
-                            <button class="btn btn-secondary" id="subtractBtn">-</button>
+                            <button class="btn btn-secondary button-subs" id="subtractBtn">-</button>
                             <input type="text" class="form-control quantity-input" id="quantityInput" value="1">
-                            <button class="btn btn-secondary" id="addBtn">+</button>
+                            <button class="btn btn-secondary button-subs" id="addBtn">+</button>
                         </div>
                     </div>
                     <div class="row m-4 ml-2 mr-2 mt-4 mb-2 gap-2"></div>
-                    <div class="row m-4 ml-2 mr-2 mt-4 mb-2 gap-2">
+                    <div class="row m-4 ml-2 mr-2 mt-4 mb-2 gap-3">
                         <button class="col-sm-2 text-center custom-col-size3 button-cart p-3 custom-text-cart">
                             <svg width="40px" height="40px" viewBox="0 0 24.00 24.00" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" stroke="#FE5C2B">
@@ -118,75 +118,8 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            var quantityInput = $("#quantityInput");
-
-            $("#addBtn").on("click", function () {
-                var currentValue = parseInt(quantityInput.val());
-                quantityInput.val(currentValue + 1);
-            });
-
-            $("#subtractBtn").on("click", function () {
-                var currentValue = parseInt(quantityInput.val());
-                if (currentValue > 1) {
-                    quantityInput.val(currentValue - 1);
-                }
-            });
-        });
-
-        document.addEventListener("DOMContentLoaded", function () {
-            const buttons = document.querySelectorAll('.button-size');
-
-            buttons.forEach(button => {
-                button.addEventListener('click', function () {
-                    // Reset color for all buttons
-                    buttons.forEach(btn => {
-                        btn.classList.remove('active');
-                    });
-
-                    // Set color for the clicked button
-                    this.classList.add('active');
-                });
-
-                // Add hover effect
-                button.addEventListener('mouseover', function () {
-                    this.classList.add('hover');
-                });
-
-                // Remove hover effect
-                button.addEventListener('mouseout', function () {
-                    this.classList.remove('hover');
-                });
-            });
-        });
-
-        document.addEventListener("DOMContentLoaded", function () {
-            const buttons = document.querySelectorAll('.button-cart');
-
-            buttons.forEach(button => {
-                button.addEventListener('click', function () {
-                    // Reset color for all buttons
-                    buttons.forEach(btn => {
-                        btn.classList.remove('active');
-                    });
-
-                    // Set color for the clicked button
-                    this.classList.add('active');
-                });
-
-                // Add hover effect
-                button.addEventListener('mouseover', function () {
-                    this.classList.add('hover');
-                });
-
-                // Remove hover effect
-                button.addEventListener('mouseout', function () {
-                    this.classList.remove('hover');
-                });
-            });
-        });
-    </script>
+    <script src="{{ asset('js/detail.js') }}"></script>
+    
 </body>
 
 
