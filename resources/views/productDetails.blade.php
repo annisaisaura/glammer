@@ -1,81 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin Sans:wght@400;500&display=swap" />
-</head>
-
-<body>
-    <div class="container">
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">glammer</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Women</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Men</a>
-                        </li>
-                    </ul>
-                    <div class="icons">
-                        <div class="cart" id="cartContainer">
-                            <img class="shopping-bag-icon" alt="" src="./public/shoppingbag.svg" />
-                            <div class="cart-0">Cart (2)</div>
-                        </div>
-                        <div class="line2"></div>
-                        <div class="user-profile">
-                            <img class="user-icon" alt="" src="./public/user.svg" />
-                            <div class="name">Name</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
-        <!-- Product Detail Content -->
-        <div class="product-detail">
-            <!-- ... (Your existing content) ... -->
-        </div>
-    </div>
-
-    <!-- Bootstrap JS (optional, if you need Bootstrap JavaScript features) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-
-    <script>
-        // Your existing script
-        var produk2Container = document.getElementById("produk2Container");
-        if (produk2Container) {
-            produk2Container.addEventListener("click", function (e) {
-                // Please sync "Product Detail 2" to the project
-            });
-        }
-
-        var cartContainer = document.getElementById("cartContainer");
-        if (cartContainer) {
-            cartContainer.addEventListener("click", function (e) {
-                // Please sync "Cart - 2 Products" to the project
-            });
-        }
-    </script>
-</body>
-</html>
-
-
-
-<!-- <!DOCTYPE html>
 <html>
 
 <head>
@@ -314,4 +237,4 @@
     </script>
 </body>
 
-</html> -->
+</html>
