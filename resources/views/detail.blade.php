@@ -5,105 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <title>glammer</title>
-    <style>
-        .custom-bg-lightgray {
-            background-color: #D9D9D9;
-            /* Ganti dengan warna yang diinginkan */
-        }
-
-        .custom-bg-container {
-            background-color: #fff5ee;
-            ;
-            /* Ganti dengan warna yang diinginkan */
-        }
-
-        .custom-col-size {
-            width: 420px;
-            /* Atur lebar kolom */
-            height: 460px;
-            /* Atur tinggi kolom */
-        }
-
-        .custom-col-size-opt {
-            width: 90px;
-            /* Atur lebar kolom */
-            height: 116px;
-            /* Atur tinggi kolom */
-        }
-
-        .custom-img {
-            width: 50%;
-            /* Atur lebar gambar sesuai kebutuhan */
-            height: auto;
-            /* Biarkan tinggi otomatis menyesuaikan agar proporsi gambar tidak terdistorsi */
-        }
-
-        .custom-img-opt {
-            width: 38px;
-            /* Atur lebar gambar sesuai kebutuhan */
-            height: 92px;
-            /* Biarkan tinggi otomatis menyesuaikan agar proporsi gambar tidak terdistorsi */
-        }
-
-        .custom-color-img-opt {
-            width: 30px;
-            /* Atur lebar gambar sesuai kebutuhan */
-            height: 72px;
-            /* Biarkan tinggi otomatis menyesuaikan agar proporsi gambar tidak terdistorsi */
-        }
-
-        .custom-color-opt {
-            width: 69px;
-            /* Atur lebar gambar sesuai kebutuhan */
-            height: 93px;
-            /* Biarkan tinggi otomatis menyesuaikan agar proporsi gambar tidak terdistorsi */
-            border-radius: 10px
-        }
-
-        .custom-col-size2 {
-            width: 69px;
-            /* Atur lebar gambar sesuai kebutuhan */
-            height: 57px;
-            /* Biarkan tinggi otomatis menyesuaikan agar proporsi gambar tidak terdistorsi */
-            border-radius: 10px;
-            border-color: #2F4F4F;
-            background-color: #FFF5EE;
-        }
-
-        .custom-col-size3 {
-            width: 250px;
-            /* Atur lebar gambar sesuai kebutuhan */
-            height: 70px;
-            /* Biarkan tinggi otomatis menyesuaikan agar proporsi gambar tidak terdistorsi */
-            border: 10px;
-            border-radius: 10px;
-            border-color: #2F4F4F;
-            background-color: #FFF5EE;
-        }
-
-        .transparent-button {
-            background-color: #FFF5EE;
-            /* Merah dengan tingkat transparansi 0.5 */
-            color: #fff;
-            border: 2px solid #fff;
-            /* Menambahkan border putih sebanyak 2px */
-            padding: 10px 20px;
-            cursor: pointer;
-        }
-
-        .custom-col-size-opt1 {
-            width: 460px;
-        }
-
-        .custom-text {
-            font-family: 'Poppins', sans-serif;
-            color: #2F4F4F;
-        }
-    </style>
 </head>
 
 <body class="custom-bg-container">
@@ -158,16 +64,16 @@
                         Size
                     </div>
                     <div class="row m-4 ml-2 mr-2 mt-2 mb-2 gap-2">
-                        <button class="col-sm-2 text-center border transparent-button custom-col-size2 p-3 custom-text">
+                        <button class="col-sm-2 text-center button-size custom-col-size2 p-3 custom-text">
                             XL
                         </button>
-                        <button class="col-sm-2 text-center border transparent-button custom-col-size2 p-3 custom-text">
+                        <button class="col-sm-2 text-center button-size custom-col-size2 p-3 custom-text">
                             L
                         </button>
-                        <button class="col-sm-2 text-center border transparent-button custom-col-size2 p-3 custom-text">
+                        <button class="col-sm-2 text-center button-size custom-col-size2 p-3 custom-text">
                             M
                         </button>
-                        <button class="col-sm-2 text-center border transparent-button custom-col-size2 p-3 custom-text">
+                        <button class="col-sm-2 text-center button-size custom-col-size2 p-3 custom-text">
                             S
                         </button>
                     </div>
@@ -175,19 +81,15 @@
                         Quantity
                     </div>
                     <div class="row m-4 ml-2 mr-2 mt-2 mb-2">
-                        <button class="col-sm-2 text-center border transparent-button custom-col-size2 p-3 custom-text">
-                            +
-                        </button>
-                        <div class="col-sm-2 text-center border custom-col-size2 p-3 custom-text">
-                            1
+                        <div class="quantity-container">
+                            <button class="btn btn-secondary" id="subtractBtn">-</button>
+                            <input type="text" class="form-control quantity-input" id="quantityInput" value="1">
+                            <button class="btn btn-secondary" id="addBtn">+</button>
                         </div>
-                        <button class="col-sm-2 text-center border transparent-button custom-col-size2 p-3 custom-text">
-                            -
-                        </button>
                     </div>
                     <div class="row m-4 ml-2 mr-2 mt-4 mb-2 gap-2"></div>
                     <div class="row m-4 ml-2 mr-2 mt-4 mb-2 gap-2">
-                        <button class="col-sm-2 text-center custom-col-size3 transparent-button p-3 custom-text">
+                        <button class="col-sm-2 text-center custom-col-size3 button-cart p-3 custom-text-cart">
                             <svg width="40px" height="40px" viewBox="0 0 24.00 24.00" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" stroke="#FE5C2B">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -206,8 +108,7 @@
                             </svg>
                             Add To Cart
                         </button>
-                        <button
-                            class="col-sm-2 text-center transparent-button custom-col-size3 p-3 custom-text">
+                        <button class="col-sm-2 text-center button-buy custom-col-size3 p-3 custom-text-buy">
                             Buy Now
                         </button>
                     </div>
@@ -215,7 +116,26 @@
             </div>
         </div>
     </div>
-    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var quantityInput = $("#quantityInput");
+
+            $("#addBtn").on("click", function () {
+                var currentValue = parseInt(quantityInput.val());
+                quantityInput.val(currentValue + 1);
+            });
+
+            $("#subtractBtn").on("click", function () {
+                var currentValue = parseInt(quantityInput.val());
+                if (currentValue > 1) {
+                    quantityInput.val(currentValue - 1);
+                }
+            });
+        });
+    </script>
 </body>
+
 
 </html>
