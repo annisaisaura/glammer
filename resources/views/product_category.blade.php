@@ -9,7 +9,7 @@
 </head>
 <body>
 @include('navbar')
-@include('footer')
+<!-- @include('footer') -->
 
 <!--------------- Products Category ------------------->
 </br>

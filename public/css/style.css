@@ -54,6 +54,7 @@
 
 .nav-item a, .nav-item i {
     padding: 5px;
+    background: var(--bg-color);;
 }
 
 .nav-item a:hover, .nav-item:hover i {
@@ -62,6 +63,10 @@
 
 .nav-icon {
     display: none;
+}
+
+.navbar-brand a {
+    background: var(--bg-color);;
 }
 
 .navbar-brand a img {
@@ -85,7 +90,7 @@
     padding-right: 0;
     border-left: 1px solid #C0C0C0;
     position: fixed;
-    bottom: 0;
+    /* bottom: 0; */
     background: var(--bg-ftr-color);
     z-index: 998;
 }
