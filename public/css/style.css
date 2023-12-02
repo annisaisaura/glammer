@@ -21,11 +21,7 @@
 
 
 /* INI BATAS AWAL NAVBAR */
-.navbar,
-.navbar-nav,
-.nav-item,
-.navbar-brand,
-.navbar-btn {
+.navbar, .navbar-nav, .nav-item, .navbar-brand, .navbar-btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,18 +52,21 @@
     padding: 10px;
 }
 
-.nav-item a,
-.nav-item i {
+.nav-item a, .nav-item i {
     padding: 5px;
+    background: var(--bg-color);;
 }
 
-.nav-item a:hover,
-.nav-item:hover i {
+.nav-item a:hover, .nav-item:hover i {
     color: var(--btn-color);
 }
 
 .nav-icon {
     display: none;
+}
+
+.navbar-brand a {
+    background: var(--bg-color);;
 }
 
 .navbar-brand a img {
@@ -92,21 +91,17 @@
     padding-right: 0;
     border-left: 1px solid #C0C0C0;
     position: fixed;
-    bottom: 0;
+    /* bottom: 0; */
     background: var(--bg-ftr-color);
     z-index: 998;
 }
 
-.footer,
-.footer-right,
-.socmed-brand,
-.footer-bottom {
+.footer, .footer-right, .socmed-brand, .footer-bottom {
     display: flex;
     justify-content: space-between;
 }
 
-.footer-left,
-.footer-right {
+.footer-left, .footer-right {
     background: var(--bg-ftr-color);
 }
 
@@ -130,8 +125,7 @@
     background: var(--bg-ftr-color);
 }
 
-.footer-left p,
-.footer-left strong {
+.footer-left p, .footer-left strong {
     padding: 28px 0;
 }
 
@@ -157,8 +151,7 @@
     color: var(--btn-color);
 }
 
-.footer-socmed,
-.socmed-brand i {
+.footer-socmed, .socmed-brand i {
     background: var(--txt-color);
 }
 
@@ -236,15 +229,12 @@
         font-size: 16px;
     }
 
-    .nav-icon a,
-    .nav-icon i {
+    .nav-icon a, .nav-icon i {
         padding: 5px;
     }
-
-    .nav-icon a:hover,
-    .nav-icon:hover i {
+    
+    .nav-icon a:hover, .nav-icon:hover i {
         color: var(--btn-color);
     }
 }
-
 /* INI BATAS AKHIR HALAMAN RESPONSIF */

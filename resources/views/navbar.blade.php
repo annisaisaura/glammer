@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 <header>
     <nav class="navbar">
         <ul class="navbar-nav">

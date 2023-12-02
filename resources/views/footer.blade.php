@@ -1,11 +1,8 @@
-<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 <footer class="footer">
     <div class="footer-left">
         <a href="{{ url('/') }}"><img src="{{ asset('img/glammer-logo-3.png') }}" alt=""></a>
-        <p><strong>glammer</strong> is an e-commerce website specializing in summer fashion products, including tops,
-            bottoms, dresses, and more.
-            <br><br><b>© 2023 Kelompok 3 DI PRAK I3. All Rights Reserved.</b>
-        </p>
+        <p><strong>glammer</strong> is an e-commerce website specializing in summer fashion products, including tops, bottoms, dresses, and more.
+        <br><br><b>© 2023 Kelompok 3 DI PRAK I3. All Rights Reserved.</b></p>
     </div>
 
     <div class="footer-right">
