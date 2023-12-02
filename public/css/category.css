@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap'); 
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,22 +11,22 @@
     color: #2F4F4F;
 }
 
-a{
+.col-2 a, .col-4 a{
     text-decoration: none;
     color: #2F4F4F;
     background: #FFFFFF;
 }
 
-h4{
+.col-4 a h4{
     font-size: 18px;
 }
 
-p{
+.col-2 p, .col-4 p{
     font-size: 18px;
     color: #2F4F4F;
 }
 
-span {
+.page-btn a span{
     background: #FFF5EE;
 }
 
@@ -55,7 +55,7 @@ span {
 
 .row-2{
     padding: 60px 30px;
-
+    padding-top: 135px;
 }
 
 .col-2{

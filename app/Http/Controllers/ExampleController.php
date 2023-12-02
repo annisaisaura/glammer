@@ -10,4 +10,8 @@ class ExampleController extends Controller
     {
         return view('example');
     }
+
+    // Salin "public function ..." di atas dalam "class NamaController ...",
+    // kemudian ubah "index" dengan nama fungsi sesuka hati dan ubah "example"
+    // sesuai nama file .blade.php (tanpa .blade.php)
 }
