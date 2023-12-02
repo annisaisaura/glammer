@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\categoryController;
+use App\Http\Controllers\detailController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ExampleController;
 
@@ -32,3 +33,4 @@ use App\Http\Controllers\ExampleController;
 Route::get('/', [categoryController::class, 'index']);
 Route::get('/product', [categoryController::class, 'product']);
 Route::get('/category', [categoryController::class, 'category']);
+Route::get('/detail', [detailController::class, 'detail']);

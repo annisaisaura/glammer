@@ -9,10 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="{{ asset('css/style.css')}}">
     <title>glammer</title>
 </head>
 
 <body class="custom-bg-container">
+@include('navbar')
+<!-- @include('footer') -->
     <div class="container custom-bg-container">
         <div class="container p-5 my-5 ">
             <div class="row m-0 p-0 gap-3">
@@ -120,6 +123,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="{{ asset('js/detail.js') }}"></script>
     
+    @include('footer')
 </body>
 
 

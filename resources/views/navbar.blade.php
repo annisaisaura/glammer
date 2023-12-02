@@ -1,7 +1,7 @@
 <header>
     <nav class="navbar">
         <ul class="navbar-nav">
-            <li class="nav-item active"><a href="#">Women</a></li>
+            <li class="nav-item active"><a href="{{ url('/') }}">Women</a></li>
             <li class="nav-item active"><a href="#">Men</a></li>
 
             <li class="nav-icon"><a href="#"><i class="fa-solid fa-person-dress"></i></a></li>

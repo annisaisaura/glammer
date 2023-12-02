@@ -9,7 +9,7 @@
 </head>
 <body>
 @include('navbar')
-<!-- @include('footer') -->
+@include('footer')
 
 <!--------------- Products Category ------------------->
 </br>
@@ -120,5 +120,6 @@
     <a href="{{ url('/product') }}"><span>2</span></a>
   </div>
 </div>
+<!-- @include('footer') -->
 </body>
 </html>

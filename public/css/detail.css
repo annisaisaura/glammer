@@ -30,6 +30,7 @@
     /* Atur lebar gambar sesuai kebutuhan */
     height: auto;
     /* Biarkan tinggi otomatis menyesuaikan agar proporsi gambar tidak terdistorsi */
+    background-color: #D9D9D9;
 }
 
 .custom-img-opt {
@@ -37,6 +38,7 @@
     /* Atur lebar gambar sesuai kebutuhan */
     height: 92px;
     /* Biarkan tinggi otomatis menyesuaikan agar proporsi gambar tidak terdistorsi */
+    background-color: #D9D9D9;
 }
 
 .custom-color-img-opt {
@@ -44,6 +46,7 @@
     /* Atur lebar gambar sesuai kebutuhan */
     height: 72px;
     /* Biarkan tinggi otomatis menyesuaikan agar proporsi gambar tidak terdistorsi */
+    background-color: #D9D9D9;
 }
 
 .custom-color-opt {
