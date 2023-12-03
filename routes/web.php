@@ -61,3 +61,4 @@ Route::get('/women/2', [categoryController::class, 'product']);
 Route::get('/women/dresses', [categoryController::class, 'category']);
 Route::get('/women/dresses/1', [categoryController::class, 'category']);
 Route::get('/women/dresses/astra-floral-linen-midi-dress', [detailController::class, 'detail']);
+// Route::get('/cart', [cartController::class, 'cart']);
