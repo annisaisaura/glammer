@@ -27,8 +27,8 @@
   <div class="small-container">
     <div class="row row-2">
         <div class="col-2">
-            <a href="{{ url('/category/dresses') }}"><img src="{{ asset('img/dress1.png') }}" ></a>
-            <a href="{{ url('/category/dresses') }}"><p>Dresses</p></a>
+            <a href="{{ url('/women/dresses') }}"><img src="{{ asset('img/dress1.png') }}" ></a>
+            <a href="{{ url('/women/dresses') }}"><p>Dresses</p></a>
         </div>
         <div class="col-2">
             <a href=""><img src="{{ asset('img/tops1.png') }}" ></a>
@@ -105,8 +105,8 @@
   <!--------------- Page button ------------------->
   <div class="center-container">
     <div class="page-btn">
-      <a href="{{ url('/product/1') }}"><span>1</span></a>
-      <a href="{{ url('/product/2') }}"><span>2</span></a>
+      <a href="{{ url('/women/1') }}"><span>1</span></a>
+      <a href="{{ url('/women/2') }}"><span>2</span></a>
     </div>
   </div>
 </div>

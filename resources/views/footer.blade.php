@@ -20,9 +20,9 @@
     </div>
 
     <div class="footer-socmed">
-        <a href="#" class="socmed-brand"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="#" class="socmed-brand"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#" class="socmed-brand"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.facebook.com/" class="socmed-brand"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/" class="socmed-brand"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.x.com/" class="socmed-brand"><i class="fa-brands fa-x-twitter"></i></a>
     </div>
 </footer>
 
