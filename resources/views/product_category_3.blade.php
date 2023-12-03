@@ -26,7 +26,7 @@
     <!--------------- Products Category ------------------->
     <div class="small-container">
       <div class="row row-2">
-          <div class="col-2">
+          <div class="col-2D" >
               <a href="{{ url('/category/dresses') }}"><img src="{{ asset('img/dress1.png') }}" ></a>
               <a href="{{ url('/category/dresses') }}"><p>Dresses</p></a>
           </div>

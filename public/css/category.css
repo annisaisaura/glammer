@@ -14,7 +14,7 @@
 .col-2 a, .col-4 a{
     text-decoration: none;
     color: #2F4F4F;
-    background: #FFFFFF;
+    /* background: #FFFFFF; */
 }
 
 .col-4 a h4{
@@ -24,6 +24,7 @@
 .col-2 p, .col-4 p{
     font-size: 18px;
     color: #2F4F4F;
+    /* background: #FFFFFF; */
 }
 
 .page-btn a span{
@@ -66,18 +67,61 @@
     border: 1px solid #C0C0C0;
     border-radius: 20px;
     text-align: center;
-    background: #FFFFFF;
+    transition: box-shadow 0.3s ease;
+    background: #FFF5EE;
 }
 
 .col-2 img{
     max-width: 70px;
     height: 90px;
-    background: #FFFFFF;
+    background: #FFF5EE;
 }
 
-.col-2 p{
+.col-2 a{
+    background: #FFF5EE;
+}
+
+.col-2:hover{
+    /* background: #FFFFFF; */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* .col-2 img:hover,
+.col-2 p:hover,
+.col-2 a:hover{
+    background: #FFFFFF;
+} */
+
+.col-2D{
+    flex-basis: 10%;
+    min-width: 125px;
+    height: 140px;
+    padding: 10px;
+    border: 1px solid #C0C0C0;
+    border-radius: 20px;
+    text-align: center;
+    background: #FFFFFF;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.col-2D img{
+    max-width: 70px;
+    height: 90px;
     background-color: #FFFFFF;
 }
+
+.col-2D p{
+    background-color: #FFFFFF;
+}
+
+.col-2D a{
+    background-color: #FFFFFF;
+}
+
+/* .col-2D:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+} */
 
 .col-4{
     flex-basis: 25%;
@@ -86,7 +130,7 @@
     max-width: 250px;
     height: 300px;
     margin-bottom: 50px;
-    border: 1px solid #C0C0C0;
+    /* border: 1px solid #C0C0C0; */
     border-radius: 20px;
     text-align: center;
     background: #FFFFFF;
@@ -107,6 +151,10 @@
 }
 
 .col-4 h4{
+    background-color: #FFFFFF;
+}
+
+.col-4 a{
     background-color: #FFFFFF;
 }
 
