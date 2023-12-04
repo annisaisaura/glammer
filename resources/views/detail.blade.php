@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
     <link rel="stylesheet" href="{{ asset('css/detail.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('css/detail-detail.css') }}"/>
+    <!-- <link rel="stylesheet" href="{{ asset('css/category.css') }}"/> -->
     <link rel="stylesheet" href="{{ asset('css/style.css')}}">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <style>
@@ -138,6 +140,112 @@
             </div>
         </div>
     </div>
+
+    <!--------------- Products description & Product detail (title)------------------->
+    <div class="container-item">
+        <div class="row row-2">
+            <div class="col-2 teks"> 
+                <h>Detail Product</h>
+            </div>
+            <div class="col-2 teks">
+                <h>Deskripsi Produk</h>
+            </div>
+        </div>
+    </div>
+    <!--------------- Products description & Product detail (title)------------------->
+
+    <!--------------- Products description & Product detail------------------->
+    <div class="container-item">
+        <div class="row">
+            <div class="col">
+                <table class="teks">
+                    <tr>
+                        <td>Length</td>
+                        <td>70 cm</td>
+                    </tr>
+                    <tr>
+                        <td>Type</td>
+                        <td>Dress</td>
+                    </tr>
+                    <tr>
+                        <td>Seelve Length</td>
+                        <td>20 cm</td>
+                    </tr>
+                    <tr>
+                        <td>Patterns</td>
+                        <td>Flower</td>
+                    </tr>  
+                    <tr>
+                        <td>Material</td>
+                        <td>Linen</td>
+                    </tr>    
+                </table>
+            </div>
+            <div class="col">
+               <p class="teks">Say hello to the Astra Floral Dress - your ultimate summer style sensation! This dress isn't just cool; it's cooler than a cucumber in a snowstorm! With its breezy, loose-fit design, you'll stay comfy and chill even in the scorching heat. And let's talk about those groovy patterns and eye-popping colors – it's like a party on fabric! Whether you're off to a picnic, a beach day, or just some laid-back fun, the Astra Floral Dress guarantees you'll be the most stylish and laid-back belle of the summer ball. Grab one before the sun sets on this sizzling deal!</p>
+            </div>
+        </div>
+    </div>
+    <!--------------- Other Product ------------------->
+
+    <!--------------- Other Product (title) ------------------->
+    <div class="container-item">
+            <h class="judul">Others Product</h>
+        </div>
+    </div>
+    <!--------------- Other Product (title) ------------------->
+
+    <!--------------- Other Product ------------------->
+    <!-- <div class="container-item">
+        <div class="row">
+            <div class="col-4">
+                <a href=""><img src="{{ asset('img/dress8.png') }}"></a>
+                <a href=""><h4>Raie Printed Bandeau..</h4></a>
+                <a href=""><p>Rp1.000.000</p></a>
+            </div>
+            <div class="col-4">
+                <a href=""><img src= "{{ asset('img/dress1.png') }}" ></a>
+                <a href=""><h4>Maia Cutout Linen..</h4></a>
+                <a href=""><p>Rp1.000.000</p></a>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="{{ asset('img/dress2.png') }}"></a>
+                <a href=""><h4>Astra Floral Linen..</h4></a>
+                <a href=""><p>Rp1.000.000</p></a>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="{{ asset('img/dress3.png') }}" ></a>
+                <a href=""><h4>Astra Floral Draw..</h4></a>
+                <a href=""><p>Rp1.000.000</p></a>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container-item">
+      <div class="row">
+        <div class="col-4">
+            <a href=""><img src="{{ asset('img/dress1.png') }}" ></a>
+            <a href=""><h4>Maia Cutout Linen..</h4></a>
+            <a href=""><p>Rp1.000.000</p></a>
+        </div>
+        <div class="col-4">
+            <a href=""><img src="{{ asset('img/dress2.png') }}" ></a>
+            <a href=""><h4>Birdie Printed Linen..</h4></a>
+            <a href=""><p>Rp1.000.000</p></a>
+        </div>
+        <div class="col-4">
+            <a href=""><img src="{{ asset('img/dress4.png') }}" ></a>
+            <a href=""><h4>Seeker Printed Linen..</h4></a>
+            <a href=""><p>Rp1.000.000</p></a>
+        </div>
+        <div class="col-4">
+            <a href=""><img src="{{ asset('img/dress5.png') }}" ></a>
+            <a href=""><h4>Fenella Ruflled Co..</h4></a>
+            <a href=""><p>Rp1.000.000</p></a>
+        </div>
+      </div>
+    </div>
+    <!--------------- Other Product ------------------->
 
     @include('footer')
 

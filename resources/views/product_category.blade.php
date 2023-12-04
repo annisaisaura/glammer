@@ -32,7 +32,7 @@
                 </div>
                 <div class="col-2">
                     <a href=""><img src="{{ asset('img/tops1.png') }}" ></a>
-                    <a href=""><p>tops</p></a>
+                    <a href=""><p>Tops</p></a>
                 </div>
                 <div class="col-2">
                     <a href=""><img src="{{ asset('img/pants1.png') }}" ></a>
