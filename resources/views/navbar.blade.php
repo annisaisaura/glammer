@@ -13,10 +13,10 @@
         </div>
 
         <ul class="navbar-btn">
-            <li class="nav-item active"><a href="#"><i class="fa-solid fa-bag-shopping"></i>Cart (2)</a></li>
+            <li class="nav-item active"><a href="{{ url('/cart(2)') }}"><i class="fa-solid fa-bag-shopping"></i>Cart (2)</a></li>
             <li class="nav-item active"><a href="#"><i class="fa-solid fa-user"></i>Name</a></li>
 
-            <li class="nav-icon"><a href="#"><i class="fa-solid fa-bag-shopping"></i>(2)</a></li>
+            <li class="nav-icon"><a href="{{ url('/cart(2)') }}"><i class="fa-solid fa-bag-shopping"></i>(2)</a></li>
             <li class="nav-icon"><a href="#"><i class="fa-solid fa-user"></i></a></li>
         </ul>
 

@@ -14,7 +14,7 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Poppins', sans-serif;
-    background: var(--bg-color);
+    /* background: var(--bg-color); */
     color: var(--txt-color);
 }
 
