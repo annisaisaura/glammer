@@ -145,10 +145,10 @@
     <div class="container-item">
         <div class="row row-2">
             <div class="col-2 teks"> 
-                <h>Detail Product</h>
+                <h>Product Detail</h>
             </div>
             <div class="col-2 teks">
-                <h>Deskripsi Produk</h>
+                <h>Product Description</h>
             </div>
         </div>
     </div>
