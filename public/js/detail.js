@@ -135,5 +135,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.getElementById("addToCartButton").addEventListener("click", function() {
     // Ganti URL sesuai dengan yang diinginkan
-    window.location.href = "/cart(2)";
+    window.location.href = "/cart(3)";
 });
