@@ -112,7 +112,7 @@
                         </div>
                         <div class="row m-4 ml-2 mr-2 mt-4 mb-2 gap-2"></div>
                         <div class="row m-4 ml-2 mr-2 mt-4 mb-2 gap-3">
-                            <button class="col-sm-2 text-center custom-col-size3 button-cart p-3 custom-text-cart">
+                            <button id="addToCartButton" class="col-sm-2 text-center custom-col-size3 button-cart p-3 custom-text-cart">
                                 <svg width="40px" height="40px" viewBox="0 0 24.00 24.00" fill="none"
                                     xmlns="http://www.w3.org/2000/svg" stroke="#FE5C2B" style="background: transparent">
                                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
