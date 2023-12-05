@@ -75,22 +75,22 @@
         <div class="row">
             <div class="col-4">
                 <a href=""><img src="{{ asset('img/dress8.png') }}"></a>
-                <a href=""><h4>Raie Printed Bandeau..</h4></a>
+                <a href=""><p>Floral cotton minidress</p></a>
                 <a href=""><p>Rp1.000.000</p></a>
             </div>
             <div class="col-4">
                 <a href=""><img src= "{{ asset('img/dress1.png') }}" ></a>
-                <a href=""><h4>Maia Cutout Linen..</h4></a>
+                <a href=""><p>Maia Cutout Linen...</p></a>
                 <a href=""><p>Rp1.000.000</p></a>
             </div>
             <div class="col-4">
                 <a href=""><img src="{{ asset('img/dress2.png') }}"></a>
-                <a href=""><h4>Astra Floral Linen..</h4></a>
+                <a href=""><p>Birdie printed linen...</p></a>
                 <a href=""><p>Rp1.000.000</p></a>
             </div>
             <div class="col-4">
                 <a href=""><img src="{{ asset('img/dress3.png') }}" ></a>
-                <a href=""><h4>Astra Floral Draw..</h4></a>
+                <a href=""><p>Cutout linen floral...</p></a>
                 <a href=""><p>Rp1.000.000</p></a>
             </div>
         </div>
