@@ -60,6 +60,7 @@ body{
     background-color: #FFF5EE;
     width: 1198px;
     height: 100%;
+    overflow: auto;
 }
 
 .item-container{
@@ -138,23 +139,31 @@ body{
     border: solid #C0C0C0 1px;
 }
 
-.quantity-min-btn{
-    display: flex;
-    justify-content: center;
+.quantity button{
+    background-color: white;
+    display: block;
     align-items: center;
+    justify-items: center;
 }
 
-.quantity-number{
-    display: flex;
-    justify-content: center;
+.quantity input{
+    background-color: white;
+    display: block;
     align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.quantity-min-btn{
+    border-radius: 5px 0px 0px 5px;
+    cursor: pointer;
 }
 
 .quantity-plus-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
 }
+
 
 /*checkout bar*/
 .checkout-bar{

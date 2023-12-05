@@ -40,7 +40,7 @@
         <!-- list item -->
         <div class="item-list">
             <div class="item-container">
-                <div>
+                <div class="item-checkbox" >
                     <i class="fa-regular fa-square fa-lg" style="color: #C0C0C0;"></i>
                 </div>
                 <div class="item-img">
@@ -63,15 +63,9 @@
                     Rp1.000.000
                 </div>
                 <div class="quantity">
-                    <div class="quantity-min-btn">
-                        -
-                    </div>
-                    <div class="quantity-number">
-                        1
-                    </div>
-                    <div class="quantity-plus-btn">
-                        +
-                    </div>
+                    <button class="quantity-min-btn" id="subtractBtn">-</button>
+                    <input type="text" class="quantity-number-input" id="quantity-number-input" value="1">
+                    <button class="quantity-plus-btn" id="addBtn">+</button>
                 </div>
                 <div class="item-total-price">
                     Rp1.000.000
@@ -102,15 +96,9 @@
                     Rp1.000.000
                 </div>
                 <div class="quantity">
-                    <div class="quantity-min-btn">
-                        -
-                    </div>
-                    <div class="quantity-number">
-                        1
-                    </div>
-                    <div class="quantity-plus-btn">
-                        +
-                    </div>
+                    <button class="quantity-min-btn" id="subtractBtn">-</button>
+                    <input type="text" class="quantity-number-input" id="quantity-number-input" value="1">
+                    <button class="quantity-plus-btn" id="addBtn">+</button>
                 </div>
                 <div class="item-total-price">
                     Rp1.000.000
@@ -137,5 +125,39 @@
             </div>
         </div>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Get the input and buttons
+            var quantityInput = document.getElementById('quantity-number-input');
+            var subtractBtn = document.getElementById('subtractBtn');
+            var addBtn = document.getElementById('addBtn');
+
+            // Add click event listener for subtract button
+            subtractBtn.addEventListener('click', function () {
+                updateQuantity(-1);
+            });
+
+            // Add click event listener for add button
+            addBtn.addEventListener('click', function () {
+                updateQuantity(1);
+            });
+
+            // Function to update quantity
+            function updateQuantity(change) {
+                // Get the current value and parse it as an integer
+                var currentValue = parseInt(quantityInput.value, 10);
+
+                // Ensure the value is a valid number
+                if (!isNaN(currentValue)) {
+                    // Update the value based on the change
+                    quantityInput.value = currentValue + change;
+
+                    // Ensure the new value is not less than 0
+                    quantityInput.value = Math.max(newValue, 0);
+                }
+            }
+        });
+    </script>
 </body>
 </html>
