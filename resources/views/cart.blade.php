@@ -14,7 +14,7 @@
     @include('navbar')
 
     <!-- laman cart -->
-    <div class="cart-page" >
+    <div class="cart-page">
         <div class="cart-container">
             <!-- bar atas -->
             <div class="top-bar"> <!-- kotak putih atasnya -->
@@ -38,10 +38,10 @@
         <br>
 
         <!-- list item -->
-        <div class="item-list">
             <div class="item-container">
                 <div>
-                    <i class="fa-regular fa-square fa-lg" style="color: #C0C0C0;"></i>
+                    <!-- <i class="fa-regular fa-square fa-lg" style="color: #C0C0C0;"></i> -->
+                    <input type="checkbox" id="myCheckbox" name="myCheckbox" onclick="toggleCheckbox()">
                 </div>
                 <div class="item-img">
                     <img src="{{asset('img/dress7.png') }}" alt="Your Image">
@@ -55,12 +55,13 @@
                             G-Y-P, M
                         </div>
                         <div class="item-variation-btn">
-                            <i class="fa-solid fa-chevron-down fa-2xs" style="color: #000000;"></i> <!-- nanti ganti icon -->
-                        </div>                        
+                            <i class="fa-solid fa-chevron-down fa-2xs" style="color: #000000;"></i>
+                            <!-- nanti ganti icon -->
+                        </div>
                     </div>
                 </div>
                 <div>
-                    Rp1.000.000
+                    1000000
                 </div>
                 <div class="quantity">
                     <div class="quantity-min-btn">
@@ -74,13 +75,14 @@
                     </div>
                 </div>
                 <div class="item-total-price">
-                    Rp1.000.000
+                    1000000
                 </div>
             </div>
 
             <div class="item-container">
                 <div>
-                    <i class="fa-regular fa-square fa-lg" style="color: #C0C0C0;"></i>
+                    <!-- <i class="fa-regular fa-square fa-lg" style="color: #C0C0C0;"></i> -->
+                    <input type="checkbox" id="myCheckbox" name="myCheckbox" onclick="toggleCheckbox()">
                 </div>
                 <div class="item-img">
                     <img src="{{asset('img/dress8.png') }}" alt="Your Image">
@@ -94,12 +96,13 @@
                             G-Y-P, M
                         </div>
                         <div class="item-variation-btn">
-                            <i class="fa-solid fa-chevron-down fa-2xs" style="color: #000000;"></i> <!-- nanti ganti icon -->
-                        </div>                        
+                            <i class="fa-solid fa-chevron-down fa-2xs" style="color: #000000;"></i>
+                            <!-- nanti ganti icon -->
+                        </div>
                     </div>
                 </div>
                 <div>
-                    Rp1.000.000
+                    1000000
                 </div>
                 <div class="quantity">
                     <div class="quantity-min-btn">
@@ -113,7 +116,7 @@
                     </div>
                 </div>
                 <div class="item-total-price">
-                    Rp1.000.000
+                    1000000
                 </div>
             </div>
         </div>
@@ -124,18 +127,23 @@
                 <i class="fa-regular fa-square fa-lg" style="color: #C0C0C0;"></i>
             </div>
             <div>
-                Select All (2)
+                Select All (3)
             </div>
             <div>
                 Delete
             </div>
-            <div class="total-price">
-                Total (0 Items): <span style="color: #FE5C2B; font-size: 24px;">Rp 0</span>
+            <div class="item-detail">
+                <div class="total-item">
+                    Total (0 Items):
+                </div>
+                <span class="total-price" style="color: #FE5C2B; font-size: 24px;">0</span>
             </div>
             <div class="checkout-btn">
                 Checkout
             </div>
         </div>
     </div>
+
+    <script src="{{ asset('js/cart.js') }}"></script>
 </body>
 </html>
