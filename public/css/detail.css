@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.custom-bg-lightgray {
+    background-color: #D9D9D9;
+    /* Ganti dengan warna yang diinginkan */
+}
+
+.custom-bg-container {
+    background-color: #fff5ee;
+    ;
+    /* Ganti dengan warna yang diinginkan */
+}
+
+.custom-col-size {
+    width: 420px;
+    /* Atur lebar kolom */
+    height: 460px;
+    /* Atur tinggi kolom */
+}
+
+.custom-col-size-opt {
+    width: 90px;
+    /* Atur lebar kolom */
+    height: 116px;
+    /* Atur tinggi kolom */
+}
+
+.custom-img {
+    width: 50%;
+    /* Atur lebar gambar sesuai kebutuhan */
+    height: auto;
+    /* Biarkan tinggi otomatis menyesuaikan agar proporsi gambar tidak terdistorsi */
+    background-color: #D9D9D9;
+}
+
+.custom-img-opt {
+    width: 38px;
+    /* Atur lebar gambar sesuai kebutuhan */
+    height: 92px;
+    /* Biarkan tinggi otomatis menyesuaikan agar proporsi gambar tidak terdistorsi */
+    background-color: #D9D9D9;
+}
+
+.custom-color-img-opt {
+    width: 30px;
+    /* Atur lebar gambar sesuai kebutuhan */
+    height: 72px;
+    /* Biarkan tinggi otomatis menyesuaikan agar proporsi gambar tidak terdistorsi */
+    background-color: #D9D9D9;
+}
+
+.custom-color-opt {
+    width: 69px;
+    /* Atur lebar gambar sesuai kebutuhan */
+    height: 93px;
+    /* Biarkan tinggi otomatis menyesuaikan agar proporsi gambar tidak terdistorsi */
+    border-radius: 10px
+}
+
+.custom-col-size2 {
+    width: 69px;
+    /* Atur lebar gambar sesuai kebutuhan */
+    height: 57px;
+    /* Biarkan tinggi otomatis menyesuaikan agar proporsi gambar tidak terdistorsi */
+    border-radius: 10px;
+    border-color: #2F4F4F;
+    background-color: #FFF5EE;
+}
+
+.custom-col-size3 {
+    width: 250px;
+    /* Atur lebar gambar sesuai kebutuhan */
+    height: 70px;
+    /* Biarkan tinggi otomatis menyesuaikan agar proporsi gambar tidak terdistorsi */
+    border: 10px;
+    border-radius: 10px;
+    border-color: #2F4F4F;
+    background-color: #FFF5EE;
+}
+
+.button-img,
+.button-color {
+    border: 0px solid #2F4F4F;
+    /* Menambahkan border putih sebanyak 2px */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-img.active,
+.button-img.hover,
+.button-color.active,
+.button-color.hover {
+    border: 1px solid #2F4F4F;
+    /* Menambahkan border putih sebanyak 2px */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-cart {
+    background-color: #FFF5EE;
+    color: #FE5C2B;
+    border: 2px solid #FE5C2B;
+    /* Menambahkan border putih sebanyak 2px */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-cart.active,
+.button-cart.hover {
+    background-color: #FE5C2B;
+    /* Ganti dengan warna yang diinginkan saat tombol aktif */
+    color: #fff;
+    /* Ganti dengan warna teks yang diinginkan saat tombol aktif */
+}
+
+.custom-text-cart {
+    color: #FE5C2B;
+    /* Warna teks */
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-subs{
+    background-color: #FE5C2B;
+}
+
+.button-buy {
+    background-color: #FE5C2B;
+    /* Merah dengan tingkat transparansi 0.5 */
+    color: #FE5C2B;
+    border: 2px solid #FE5C2B;
+    /* Menambahkan border putih sebanyak 2px */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-buy.hover {
+    color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 2px 0 #2F4F4F; 
+    cursor: pointer;
+}
+
+.custom-text-buy {
+    color: #ffff;
+    /* Warna teks */
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-size {
+    background-color: #FFF5EE;
+    /* Merah dengan tingkat transparansi 0.5 */
+    border: 1px solid #2F4F4F;
+    /* Menambahkan border putih sebanyak 2px */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-size.active,
+.button-size.hover {
+    background-color: #FE5C2B;
+    /* Ganti dengan warna yang diinginkan saat tombol aktif */
+    color: #fff;
+    /* Ganti dengan warna teks yang diinginkan saat tombol aktif */
+}
+
+.button-qty {
+    background-color: #FFF5EE;
+    /* Merah dengan tingkat transparansi 0.5 */
+    border: 2px solid #2F4F4F;
+    /* Menambahkan border putih sebanyak 2px */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.custom-col-size-opt1 {
+    width: 460px;
+}
+
+.custom-text {
+    font-family: 'Poppins', sans-serif;
+    color: #2F4F4F;
+}
+
+.quantity-container {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.quantity-input {
+    width: 60px;
+    text-align: center;
+    margin: 0 10px;
+}
