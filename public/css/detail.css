@@ -1,155 +1,194 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-:root {
-    --txt-color: #2F4F4F;
-    --btn-color: #FE5C2B;
-    --bg-color: #FFF5EE;
-    --bg-ftr-color: #FADADD;
+.custom-bg-lightgray {
+    background-color: #D9D9D9;
+    /* Ganti dengan warna yang diinginkan */
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+.custom-bg-container {
+    background-color: #fff5ee;
+    ;
+    /* Ganti dengan warna yang diinginkan */
+}
+
+.custom-col-size {
+    width: 420px;
+    /* Atur lebar kolom */
+    height: 460px;
+    /* Atur tinggi kolom */
+}
+
+.custom-col-size-opt {
+    width: 90px;
+    /* Atur lebar kolom */
+    height: 116px;
+    /* Atur tinggi kolom */
+}
+
+.custom-img {
+    width: 50%;
+    /* Atur lebar gambar sesuai kebutuhan */
+    height: auto;
+    /* Biarkan tinggi otomatis menyesuaikan agar proporsi gambar tidak terdistorsi */
+    background-color: #D9D9D9;
+}
+
+.custom-img-opt {
+    width: 38px;
+    /* Atur lebar gambar sesuai kebutuhan */
+    height: 92px;
+    /* Biarkan tinggi otomatis menyesuaikan agar proporsi gambar tidak terdistorsi */
+    background-color: #D9D9D9;
+}
+
+.custom-color-img-opt {
+    width: 30px;
+    /* Atur lebar gambar sesuai kebutuhan */
+    height: 72px;
+    /* Biarkan tinggi otomatis menyesuaikan agar proporsi gambar tidak terdistorsi */
+    background-color: #D9D9D9;
+}
+
+.custom-color-opt {
+    width: 69px;
+    /* Atur lebar gambar sesuai kebutuhan */
+    height: 93px;
+    /* Biarkan tinggi otomatis menyesuaikan agar proporsi gambar tidak terdistorsi */
+    border-radius: 10px
+}
+
+.custom-col-size2 {
+    width: 69px;
+    /* Atur lebar gambar sesuai kebutuhan */
+    height: 57px;
+    /* Biarkan tinggi otomatis menyesuaikan agar proporsi gambar tidak terdistorsi */
+    border-radius: 10px;
+    border-color: #2F4F4F;
+    background-color: #FFF5EE;
+}
+
+.custom-col-size3 {
+    width: 250px;
+    /* Atur lebar gambar sesuai kebutuhan */
+    height: 70px;
+    /* Biarkan tinggi otomatis menyesuaikan agar proporsi gambar tidak terdistorsi */
+    border: 10px;
+    border-radius: 10px;
+    border-color: #2F4F4F;
+    background-color: #FFF5EE;
+}
+
+.button-img,
+.button-color {
+    border: 0px solid #2F4F4F;
+    /* Menambahkan border putih sebanyak 2px */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-img.active,
+.button-img.hover,
+.button-color.active,
+.button-color.hover {
+    border: 1px solid #2F4F4F;
+    /* Menambahkan border putih sebanyak 2px */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-cart {
+    background-color: #FFF5EE;
+    color: #FE5C2B;
+    border: 2px solid #FE5C2B;
+    /* Menambahkan border putih sebanyak 2px */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-cart.active,
+.button-cart.hover {
+    background-color: #FE5C2B;
+    /* Ganti dengan warna yang diinginkan saat tombol aktif */
+    color: #fff;
+    /* Ganti dengan warna teks yang diinginkan saat tombol aktif */
+}
+
+.custom-text-cart {
+    color: #FE5C2B;
+    /* Warna teks */
     font-family: 'Poppins', sans-serif;
-    background: var(--bg-color);
-    color: var(--txt-color);
 }
-.container{
-    max-width: 1500px;
-    margin: auto;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-.container-item{
-    max-width: 1250px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
 
+.button-subs{
+    background-color: #FE5C2B;
 }
-.row{
+
+.button-buy {
+    background-color: #FE5C2B;
+    /* Merah dengan tingkat transparansi 0.5 */
+    color: #FE5C2B;
+    border: 2px solid #FE5C2B;
+    /* Menambahkan border putih sebanyak 2px */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-buy.hover {
+    color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 2px 0 #2F4F4F; 
+    cursor: pointer;
+}
+
+.custom-text-buy {
+    color: #ffff;
+    /* Warna teks */
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-size {
+    background-color: #FFF5EE;
+    /* Merah dengan tingkat transparansi 0.5 */
+    border: 1px solid #2F4F4F;
+    /* Menambahkan border putih sebanyak 2px */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-size.active,
+.button-size.hover {
+    background-color: #FE5C2B;
+    /* Ganti dengan warna yang diinginkan saat tombol aktif */
+    color: #fff;
+    /* Ganti dengan warna teks yang diinginkan saat tombol aktif */
+}
+
+.button-qty {
+    background-color: #FFF5EE;
+    /* Merah dengan tingkat transparansi 0.5 */
+    border: 2px solid #2F4F4F;
+    /* Menambahkan border putih sebanyak 2px */
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.custom-col-size-opt1 {
+    width: 460px;
+}
+
+.custom-text {
+    font-family: 'Poppins', sans-serif;
+    color: #2F4F4F;
+}
+
+.quantity-container {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    max-height: 390px;
-    background: #fff5ee;
+    margin: 0;
 }
 
-.row-2{
-    padding-top:30px;
-
-}
-.col-2{
-    flex-basis: 10%;
-    min-width: 555px;
-    height: 61px;
-    padding: 10px;
-    border: 1px solid #2F4F4F;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    text-align: left;
-}
-.col-2 .teks{
-    font-family: 'Poppins', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    justify-content: left;
-}
-.col{
-    padding: 20px;
-    min-width: 555px;
-    max-width: 555px;
-    margin-bottom: 50px;
-    position: relative;
-    margin-top: 20px;
-}
-
-.col-4{
-    flex-basis: 25%;
-    padding: 20px;
-    min-width: 100px;
-    max-width: 250px;
-    height: 300px;
-    margin-bottom: 50px;
-    border-radius: 20px;
+.quantity-input {
+    width: 60px;
     text-align: center;
-    background: #FFFFFF;
-    position: relative;
-    margin-top:10px;
+    margin: 0 10px;
 }
-
-.col-4 img{
-    width: 100px;
-    height: 180px;
-    /* max-height: 75%; */
-    background-color: #FFFFFF;
-    margin: 5px;
-}
-
-.col-4 p{
-    background-color: #FFFFFF;
-    margin: 10px;
-}
-
-.col-4 h4{
-    background-color: #FFFFFF;
-}
-.isi{
-    padding: 5%;
-
-
-}
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-tr {
-    border-bottom: 20px solid transparent;
-}
-table, th, td {
-    padding: 0; 
-}
-
-p {
-    text-align: justify;
-}
-
-h {
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-left: 27px;
-}
-.teks{
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal
-}
-a{
-    text-decoration: none;
-    color: #2F4F4F;
-    background: #FFFFFF;
-}
-
-h4{
-    font-size: 18px;
-}
-
-
-.judul{
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
-}
-
-
