@@ -25,17 +25,6 @@
     <div class="body-body">
         <!--------------- Products Category ------------------->
         <div class="small-container">
-            <div class="row row-3">
-                <h2>All Products</h2>
-                <select name="" id="">
-                    <option value="">Default Sorting</option>
-                    <option value="">Sort by Price</option>
-                    <option value="">Sort by Popularity</option>
-                    <option value="">Sort by sales</option>
-                </select>
-            </div>
-
-
             <div class="row row-2">
                 <div class="col-2">
                     <a href="{{ url('/women/dresses') }}"><img src="{{ asset('img/dress1.png') }}" ></a>
@@ -61,6 +50,15 @@
                 <a href=""><img src="{{ asset('img/shirts1.png') }}" ></a>
                 <p>Shirts</p>
                 </div>
+            </div>
+            <div class="row row-3">
+                <h2>All Products</h2>
+                <select name="" id="">
+                    <option value="">Default Sorting</option>
+                    <option value="">Sort by Price</option>
+                    <option value="">Sort by Popularity</option>
+                    <option value="">Sort by sales</option>
+                </select>
             </div>
         </div>
 
