@@ -222,28 +222,30 @@
     </div> -->
 
     <div class="container-item">
-      <div class="row">
-        <div class="col-4">
-            <a href=""><img src="{{ asset('img/dress1.png') }}" ></a>
-            <a href=""><h4>Maia Cutout Linen..</h4></a>
-            <a href=""><p>Rp1.000.000</p></a>
+        <div class="small-container">
+            <div class="row row-4">
+                <div class="col-4">
+                    <a href=""><img src="{{ asset('img/dress1.png') }}" ></a>
+                    <a href=""><h4>Maia Cutout Linen..</h4></a>
+                    <a href=""><p>Rp1.000.000</p></a>
+                </div>
+                <div class="col-4">
+                    <a href=""><img src="{{ asset('img/dress2.png') }}" ></a>
+                    <a href=""><h4>Birdie Printed Li..</h4></a>
+                    <a href=""><p>Rp1.000.000</p></a>
+                </div>
+                <div class="col-4">
+                    <a href=""><img src="{{ asset('img/dress4.png') }}" ></a>
+                    <a href=""><h4>Seeker Printed Li..</h4></a>
+                    <a href=""><p>Rp1.000.000</p></a>
+                </div>
+                <div class="col-4">
+                    <a href=""><img src="{{ asset('img/dress5.png') }}" ></a>
+                    <a href=""><h4>Fenella Ruflled Co..</h4></a>
+                    <a href=""><p>Rp1.000.000</p></a>
+                </div>
+            </div>
         </div>
-        <div class="col-4">
-            <a href=""><img src="{{ asset('img/dress2.png') }}" ></a>
-            <a href=""><h4>Birdie Printed Linen..</h4></a>
-            <a href=""><p>Rp1.000.000</p></a>
-        </div>
-        <div class="col-4">
-            <a href=""><img src="{{ asset('img/dress4.png') }}" ></a>
-            <a href=""><h4>Seeker Printed Linen..</h4></a>
-            <a href=""><p>Rp1.000.000</p></a>
-        </div>
-        <div class="col-4">
-            <a href=""><img src="{{ asset('img/dress5.png') }}" ></a>
-            <a href=""><h4>Fenella Ruflled Co..</h4></a>
-            <a href=""><p>Rp1.000.000</p></a>
-        </div>
-      </div>
     </div>
     <!--------------- Other Product ------------------->
 

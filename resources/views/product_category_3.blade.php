@@ -50,7 +50,16 @@
           <a href=""><img src="{{ asset('img/shirts1.png') }}" ></a>
           <p>Shirts</p>
         </div>
-      </div>  
+      </div>
+      <div class="row row-3">
+        <h2>Dresses</h2>
+            <select name="" id="">
+                <option value="">Default Sorting</option>
+                <option value="">Sort by Price</option>
+                <option value="">Sort by Popularity</option>
+                <option value="">Sort by sales</option>
+            </select>
+      </div>
     </div>
 
     <!--------------- Products ------------------->

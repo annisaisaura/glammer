@@ -51,6 +51,15 @@
                 <p>Shirts</p>
                 </div>
             </div>
+            <div class="row row-3">
+                <h2>All Products</h2>
+                <select name="" id="">
+                    <option value="">Default Sorting</option>
+                    <option value="">Sort by Price</option>
+                    <option value="">Sort by Popularity</option>
+                    <option value="">Sort by sales</option>
+                </select>
+            </div>
         </div>
 
         <!--------------- Products ------------------->
