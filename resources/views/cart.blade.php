@@ -127,7 +127,7 @@
                 <i class="fa-regular fa-square fa-lg" style="color: #C0C0C0;"></i>
             </div>
             <div>
-                Select All (3)
+                Select All (2)
             </div>
             <div>
                 Delete
