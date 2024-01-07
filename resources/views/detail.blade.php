@@ -194,61 +194,35 @@
         </div>
     </div>
     <!--------------- Other Product (title) ------------------->
-
-    <!--------------- Other Product ------------------->
-    <!-- <div class="container-item">
-        <div class="row">
-            <div class="col-4">
-                <a href=""><img src="{{ asset('img/dress8.png') }}"></a>
-                <a href=""><h4>Raie Printed Bandeau..</h4></a>
-                <a href=""><p>Rp1.000.000</p></a>
-            </div>
-            <div class="col-4">
-                <a href=""><img src= "{{ asset('img/dress1.png') }}" ></a>
-                <a href=""><h4>Maia Cutout Linen..</h4></a>
-                <a href=""><p>Rp1.000.000</p></a>
-            </div>
-            <div class="col-4">
-                <a href=""><img src="{{ asset('img/dress2.png') }}"></a>
-                <a href=""><h4>Astra Floral Linen..</h4></a>
-                <a href=""><p>Rp1.000.000</p></a>
-            </div>
-            <div class="col-4">
-                <a href=""><img src="{{ asset('img/dress3.png') }}" ></a>
-                <a href=""><h4>Astra Floral Draw..</h4></a>
-                <a href=""><p>Rp1.000.000</p></a>
-            </div>
-        </div>
-    </div> -->
+    <!---------------Other product----------------------------->
 
     <div class="container-item">
         <div class="small-container">
             <div class="row row-4">
                 <div class="col-4">
                     <a href=""><img src="{{ asset('img/dress1.png') }}" ></a>
-                    <a href=""><h4>Maia Cutout Linen..</h4></a>
+                    <a href=""><p>Maia Cutout Linen..</p></a>
                     <a href=""><p>Rp1.000.000</p></a>
                 </div>
                 <div class="col-4">
                     <a href=""><img src="{{ asset('img/dress2.png') }}" ></a>
-                    <a href=""><h4>Birdie Printed Li..</h4></a>
+                    <a href=""><p>Birdie Printed Li..</p></a>
                     <a href=""><p>Rp1.000.000</p></a>
                 </div>
                 <div class="col-4">
                     <a href=""><img src="{{ asset('img/dress4.png') }}" ></a>
-                    <a href=""><h4>Seeker Printed Li..</h4></a>
+                    <a href=""><p>Seeker Printed Li..</p></a>
                     <a href=""><p>Rp1.000.000</p></a>
                 </div>
                 <div class="col-4">
                     <a href=""><img src="{{ asset('img/dress5.png') }}" ></a>
-                    <a href=""><h4>Fenella Ruflled Co..</h4></a>
+                    <a href=""><p>Fenella Ruflled Co..</p></a>
                     <a href=""><p>Rp1.000.000</p></a>
                 </div>
             </div>
         </div>
     </div>
     <!--------------- Other Product ------------------->
-
     @include('footer')
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
